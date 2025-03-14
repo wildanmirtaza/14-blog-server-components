@@ -15,17 +15,12 @@ export const Footer: FunctionComponent = () => {
         </div>
         <div className="text-xs text-muted-foreground hidden lg:block">
           <Link
-            href={`https://wisp.blog/?utm_source=next-js-template&utm_medium=web&utm_campaign=${config.baseUrl}`}
+            href={`https://owudev.com`}
           >
-            Blog powered by wisp
+            Blog powered by Owudev
           </Link>
         </div>
         <div>
-          <Link href="/rss">
-            <Button variant="ghost" className="p-2">
-              <Rss className="w-4 h-4" />
-            </Button>
-          </Link>
           <DarkModeToggle />
         </div>
       </div>
